@@ -2,17 +2,17 @@ function toggleMenu() {
     document.querySelector(".nav-links").classList.toggle("show");
 }
 
-function openSearch() {
-    document.querySelector(".search-container").style.display = "flex";
-    document.querySelector(".navbar").style.justifyContent = "center";
-    document.querySelector(".search-icon").style.display = "none";
-}
+// function openSearch() {
+//     document.querySelector(".search-container").style.display = "flex";
+//     document.querySelector(".navbar").style.justifyContent = "center";
+//     document.querySelector(".search-icon").style.display = "none";
+// }
 
-function closeSearch() {
-    document.querySelector(".search-container").style.display = "none";
-    document.querySelector(".navbar").style.justifyContent = "space-between";
-    document.querySelector(".search-icon").style.display = "block";
-}
+// function closeSearch() {
+//     document.querySelector(".search-container").style.display = "none";
+//     document.querySelector(".navbar").style.justifyContent = "space-between";
+//     document.querySelector(".search-icon").style.display = "block";
+// }
 
 document.addEventListener("DOMContentLoaded", function () {
     const searchBar = document.querySelector(".search-bar");
